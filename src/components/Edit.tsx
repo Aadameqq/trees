@@ -98,7 +98,7 @@ const useEditAd = (adId: string) => {
     return new Promise<{ success: boolean }>((resolve, reject) => {
       try {
         const data = JSON.parse(localStorage.getItem('ads') || '[]').filter(
-          (x) => x.id !== adId,
+          (x: any) => x.id !== adId,
         );
         const newData = [...data, { ...ad, date: ad.date.toDateString() }];
         localStorage.setItem('ads', JSON.stringify(newData));
