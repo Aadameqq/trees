@@ -1,0 +1,40 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: [
+    'plugin:react/recommended',
+    'prettier',
+    'airbnb',
+    'next/core-web-vitals',
+  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  plugins: ['react', '@typescript-eslint', 'prettier', '@tanstack/query'],
+  rules: {
+    'prettier/prettier': 'error',
+    'arrow-body-style': 'off',
+    'prefer-arrow-callback': 'off',
+    'import/prefer-default-export': 'off',
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-filename-extension': 'off',
+    'object-curly-newline': 'off',
+    'import/extensions': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
+    'operator-linebreak': 'off',
+    'react/jsx-curly-newline': 'off',
+    'implicit-arrow-linebreak': 'off',
+    'no-nested-ternary': 'off',
+    indent: 'off',
+  },
+};
