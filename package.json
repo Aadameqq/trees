@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lfix": "eslint --fix",
-    "gen": "prisma generate"
+    "lfix": "eslint --fix"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",
