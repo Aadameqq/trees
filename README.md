@@ -1,4 +1,4 @@
-# Link do aplikacji - nie dodałem w zgłoszeniu
+# Link do strony - przypadkiem nie dodałem w zgłoszeniu
 https://aadameqq.github.io/trees-preview/
 # Instalacja
 1. Zainstaluj Node.js - https://nodejs.org/en
